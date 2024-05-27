@@ -3,8 +3,7 @@ project:
   output-dir: docs
   
 book:
-  title: "The title of my most excellent thesis"
-  author: "Jane Doe"
+  title: "\\textbf{Structure-Based Discovery of Putative Novel Deep-Sea Hydrothermal Chitinases}"
   date: today
   date-format: "MMMM YYYY"
   chapters:
@@ -36,33 +35,57 @@ format:
     papersize: a4
     header-includes: |
       \usepackage{titling}
-      \setlength{\droptitle}{-2cm}
+      \usepackage{lmodern}
+      \usepackage{graphicx}
+      \usepackage{geometry}
+      \usepackage{setspace}
+      \onehalfspacing
+      \geometry{margin=2.5cm}
+      \setlength{\droptitle}{-2cm}  % Adjust this value to move the title up
+      \pretitle{
+        \begin{center}
+        \vspace*{-2cm}  % Move the title up
+        \huge\bfseries  % Make the title bold and large
+      }
+      \posttitle{
+        \par
+        \end{center}
+        \vspace*{3cm}  % Adjust this value to control the space after the title
+      }
       \preauthor{
         \begin{center}
-        \includegraphics[width=5in,height=4in]{figures/IMG_20210719_134928644.jpg}\\ % cover figure
-        \Large
-      }
-      \postauthor{
+        \vspace{-2cm}  % Adjust this value to move the picture up
+        \includegraphics[width=4in,height=3in]{figures/IMG_20210719_134928644.jpg}\\ % Cover figure
+        \vspace{0.5cm}  % Adjust this value to control the space between the picture and the author
+        \Large\bfseries Guro Ødegårdstuen\\
+        \vspace{0.2cm}  
         \end{center}
       }
+        \postauthor{
+        \begin{center}
+        {\large{Supervisors:}}\\
+        \large
+        Researcher \textbf{Runar Stokke}\\
+        Postdoc \textbf{Hasan Arsın}\\
+        Professor \textbf{Ida Helene Steen}\\
+        \vspace{1.5cm} 
+        \includegraphics[width=1.7in,height=1.7in]{figures/UiB-emblem500px_gray.png}\\
+        \end{center}
+      } 
       \predate{
         \begin{center}
-        Master of Science in Biology\\               % Degree
-        Biodiversity, Evolution and Ecology\\        % Degree stream
-        Department of Biological Sciences\\          % Department
-        University of Bergen\\                       % University 
-        \vspace{5mm}
+        \large
+        Master of Science in Biology | Microbiology\\  % Degree
+        Department of Biological Sciences\\            % Department
+        University of Bergen\\                         % University 
       }
-      \postdate{
-        \\
-        \includegraphics[width=1.5in,height=1.5in]{figures/UiB-emblem500px_gray.png}\\
-        \end{center}
-        \newpage
-        \mbox{}
-        \vfill
-        Cover page\\
-        \emph{Beckwithia glacialis} on Snøhetta.
-       }
-
+       \postdate{
+       \end{center}
+       \newpage
+       \mbox{}
+       \vfill
+       Cover page:\\
+       \emph{Beckwithia glacialis} on Snøhetta.
+      }
 editor: visual
 

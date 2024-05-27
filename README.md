@@ -1,4 +1,5 @@
-# Structure-Based Discovery of Putative Novel Deep-Sea Hydrothermal Chitinases
+# Project description
+## Structure-Based Discovery of Putative Novel Deep-Sea Hydrothermal Chitinases
 
 <!-- badges: start -->
 

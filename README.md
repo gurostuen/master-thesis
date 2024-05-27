@@ -1,25 +1,18 @@
-# Structure-based discovery of putative novel deep-sea hydrothermal chitinases
+# Structure-Based Discovery of Putative Novel Deep-Sea Hydrothermal Chitinases
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
 
-Start by editing the \_quarto.yml file. Here you need to edit the
+The main aim of this master project is to use the strength of Artificial Intelligence-assisted (AI) structure-based screening, to discover novel chitinases. The advantage of going beyond the traditional sequence-based screening is multifaceted: (1) we avoid using sequence homology to known enzymes, i.e removing the need for functional databases, (2) employing screening on the structure level, knowing that a structural fold is more conserved through time of evolution than the primary amino acid sequence, and (3) using the powerful advantage of structure modelling by state-of-the-art AI-tools like AlphaFold2. Overall, there is a potential for discovery of novel enzymes, in this case chitinases, to be used in a biotechnological setting.
 
--   title (line 5)
--   author (line 6)
--   chapters (line 9) if you add or remove any chapters
--   appendices (line 19) if you add or remove any appendices
--   echo to false to hide code
--   cover figure (line 42)
--   Degree etc (line 50)
--   Description of cover figure (line 64)
+<img width="500" alt="image" src="https://github.com/gurostuen/master-thesis/assets/159033554/83606182-458b-4e4f-a1ed-a18e873e369e">
 
-Each chapter should be a new file.
+![]("https://github.com/gurostuen/master-thesis/assets/159033554/83606182-458b-4e4f-a1ed-a18e873e369e")
+*Figure 1: Sampling site and in situ incubation set-up as described in Stokke et al. 2020.*
 
-index.qmd is a special chapter that makes the cover page for the html version of the thesis and is hidden in the pdf version.
+The sample to be used in this project is a metagenome derived from an in situ incubator (top chamber) deployed and recovered from an Arctic deep-sea hyrothermal vent field, the Jan Mayen Vent Field (Bruse vent site), after 1 year of incubation using chitin as a substrate. Incubation was performed as described in Stokke et al. 2020 (figure 1). Recently, three chitinases (discovered by sequence-based screening) have been successfully produced and characterised in the lab prior to the start pf the master project. These chitinases will serve as control experiments for chitinase activity in the project. 
 
-R code is run in each chapter independently. This probably isn't a big problem as most of the code will be for the results chapter. If you find you need to duplicate code across multiple chapters, consider using the [targets](https://books.ropensci.org/targets/) package.
-
-To learn more about using quarto markdown, see <http://biostats-r.github.io/biostats/quarto>
+## References
+Stokke, R., Reeves, E. P., Dahle, H., Fedøy, A.-E., Viflot, T., Lie Onstad, S., Vulcano, F., Pedersen, R. B., Eijsink, V. G. H., & Steen, I. H. (2020). Tailoring Hydrothermal Vent Biodiversity Toward Improved Biodiscovery Using a Novel in situ Enrichment Strategy. *Frontiers in Microbiology*, 11. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00249

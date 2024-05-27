@@ -1,0 +1,37 @@
+---
+title: "Annotated bibliography"
+author: "Guro Ødegårdstuen"
+format: html
+date: today
+editor: visual
+bibliography: references.bib
+---
+
+[@Dick2019]:
+
+Professor Gregory J. Dick’s review provides a detailed and comprehensive exploration of chemosynthetic ecosystems found at deep-sea hydrothermal vents. Specifically, he describes geologically distinct vent types and their associated biological communities, and how they together highlight the relationship between geology, fluid geochemistry, biology and biogeography (box 2). He also defines characteristic *Bacteria* and *Archaea*, their metabolic pathways and how they exploit the chemical energy from the disequilibrium between reducing hydrothermal fluids and oxidizing seawater (figure 3). Main habitats are described in further detail as well (figure 2), including how they can differ both locally and globally. Lastly, wider interactions are discussed, specifically ecological interactions (figure 4) and the broader impact of vent microbiology on biogeochemistry. This review could be useful for my thesis when discussing the conditions, environments and microbiomes at hydrothermal vents both at a global and a local scale.
+
+[@Dukariya2020]:
+
+In this review, Dukariya and Kumar, affiliated with an Indian university, present a simple and concise exploration of chitinases. It focuses on the occurrence and diverse distribution of chitinases, shedding light on their commercial utilization across various domains. They have also included informative and nice figures (figure 1) and tables. Structural aspects, roles (table 2) and distribution (table 3) of glycosyl hydrolase families 18, 19 and 20 are described in detail (table 1). This resource will be valuable for my thesis, offering a foundational reference for elucidating the classification, distribution and practical applications of chitinases. Some points that might be worth mentioning in my thesis is the sections describing the GH18 family (related to *Bacteria/Archaea*) SCP, waste treatment, crop control, medical applications, different domain structures and activation/inhibition mechanisms across domains.
+
+[@Garron2019]:
+
+French professors Marie-Line Garron and Bernard Henrissat discuss here the expanding realm of carbohydrate-active enzymes (CAZymes) and their families, examining the CAZyme families reported during the last two years. Despite early discoveries like amylase and lysozyme in the 19th century, the number of CAZyme families continues to grow, driven by advances in genomics and bioinformatics. Notably, polysaccharide utilization loci (PULs) in bacteria like Bacteroidetes have spurred discoveries, revealing novel CAZyme families involved in polysaccharide degradation. The emergence of new lytic polysaccharide mono-oxygenase (LPMO) families, such as AA14 and AA15, expands our understanding of oxidative polysaccharide cleavage mechanisms. The article underscores the intrinsic complexity of glycans, driving the vast diversity of CAZymes and the continual need for their exploration to decode their biological roles and potential applications in health, nutrition, and biotechnology. While this article may not directly contribute to my thesis, it could serve as a valuable resource for elucidating general concepts surrounding CAZymes and their classification, should I need to provide a overview of this.
+
+[@Nguyen2018]:
+
+This article discusses the essential role of glycoside hydrolases (GHs) in the enzymatic deconstruction of structural polysaccharides like cellulose, xylan and chitin. It highlights the diversity and evolution of these enzymes, focusing on the taxonomic distribution and substrate specificity of characterized GHs. The carbohydrate-active enzymes database (CAZy) serves as a central repository for GH information, although it lacks analysis tools for sequence annotation. The study addresses three key questions: estimating the polyspecificity of GH families, understanding the taxonomic distribution and substrate specificity of characterized GHs, and achieving GH annotation using publicly accessible tools. By employing a custom bioinformatic program and Pfam-based annotation, the study successfully identifies a significant portion of GH sequences associated with polysaccharide deconstruction. The future direction involves further refining annotation methods for polyspecific GH families and utilizing sequence datasets for detailed comparative analyses using tools like BLAST. Overall, the article underscores the importance of GHs in environmental processes and the need for improved annotation tools to facilitate research in this field. The article demonstrates the practical application of databases such as CAZy and Pfam, while also acknowledging their constraints. It provides valuable insights that can inform my thesis, offering background information, addressing knowledge gaps, and proposing hypotheses. Additionally, its relevance extends to the discussion section, allowing for a comprehensive exploration of the role of GHs in environmental processes and the challenges in their annotation and analysis.
+
+[@Orellana2018]:
+
+xxx
+
+[@Rappaport2023]:
+
+xxx
+
+### References
+
+::: {#refs}
+:::

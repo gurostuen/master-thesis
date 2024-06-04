@@ -8,7 +8,7 @@
 
 The main aim of this master project is to use the strength of Artificial Intelligence-assisted (AI) structure-based screening, to discover novel chitinases. The advantage of going beyond the traditional sequence-based screening is multifaceted: (1) we avoid using sequence homology to known enzymes, i.e removing the need for functional databases, (2) employing screening on the structure level, knowing that a structural fold is more conserved through time of evolution than the primary amino acid sequence, and (3) using the powerful advantage of structure modelling by state-of-the-art AI-tools like AlphaFold2. Overall, there is a potential for discovery of novel enzymes, in this case chitinases, to be used in a biotechnological setting.
 
-<img width="500" alt="image" src="https://github.com/gurostuen/master-thesis/assets/159033554/83606182-458b-4e4f-a1ed-a18e873e369e">
+<img width="500" alt="image" src="https://github.com/gurostuen/master-thesis/assets/159033554/f0029fd3-4bc5-4367-9ba7-df37366239aa">
 
 ![]("https://github.com/gurostuen/master-thesis/assets/159033554/83606182-458b-4e4f-a1ed-a18e873e369e")
 *Figure 1: Sampling site and in situ incubation set-up as described in Stokke et al. 2020.*

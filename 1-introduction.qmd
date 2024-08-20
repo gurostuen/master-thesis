@@ -1,9 +1,75 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+## Background and Significance
 
-See @knuth84 for additional discussion of literate programming.
+-   Introduction to chitinases
 
-```{r}
-1 + 1
-```
+    -   Define chitinases and their role in nature
+
+    -   Discuss their importance in various biological processes, particularly in marine ecosystems
+
+    -   Highlight their biotechnological applications (e.g. biofuel production, agriculture and waste management)
+
+-   Deep-sea hydrothermal vent environments
+
+    -   Provide an overview of deep-sea hydrothermal vents, particularly the unique conditions that make them interesting for enzyme discovery
+
+    -   Explain the significance of studying microorganisms in these extreme environments, emphasizing their potential for novel biochemical pathways and enzymes
+
+## Traditional Methods for Enzyme Discovery
+
+-   Sequence-based screening
+
+    -   Describe the conventional approach of enzyme discovery through sequence-based methods
+
+    -   Discuss the limitations of relying solely on sequence homology, such as the risk of missing novel enzymes that do not have close sequence relatives
+
+## Structure-Based Discovery
+
+-   Introduction to structure-based screening
+
+    -   Explain the concept of structure-based enzyme discovery
+
+    -   Emphasize the advantages of structure-based methods, such as the conservation of structural folds over evolutionary time and the ability to identify novel enzymes without relying on sequence databases
+
+-   AI-assisted structure modelling
+
+    -   Introduce the role of AI in structure prediction and screening, focusing on tools like AlphaFold2
+
+    -   Discuss the impact of these AI tools on accelerating and enhancing enzyme discovery
+
+## Rationale and Objectives
+
+-   Why focus on chitinases in deep-sea hydrothermal vents?
+
+    -   Justify the choice of chitinases and deep-sea hydrothermal vents as the focus of the project
+
+    -   Explain the potential of discovering novel chitinases with unique properties suited to extreme environments, which could have valuable applications in biotechnology
+
+-   Hypothesis and research questions
+
+    -   State the main hypothesis/aim of the project
+
+    -   Outline specific research questions or objectives that will guide the study
+
+## Methodological Approach
+
+-   Sample collection and preparation
+
+    -   Briefly describe the source of the metagenomic sample from the Jan Mayen Vent Field
+
+    -   Mention the incubation setup and the role of chitin as a substrate in the experiment
+
+-   Control experiments
+
+    -   Explain the importance of the three previously discovered chitinases that will serve as controls.
+
+    -   Describe how these controls will be used to benchmark the novel chitinases discovered during the project.
+
+## Potential Impact and Applications
+
+-   Biotechnological implications
+
+    -   Discuss the broader implications of discovering novel chitinases, particularly their potential applications in various industries
+
+    -   Highlight the innovative aspect of using AI in enzyme discovery
